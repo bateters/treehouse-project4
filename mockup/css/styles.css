@@ -10,7 +10,7 @@
 }
 
 p {
-  line-height: 1.45em;
+  line-height: 1.45em; 
 }
 
 a {
@@ -127,7 +127,7 @@ a {
 /*              Navigation                       */
 /* ============================================= */
 
-.nav {
+.nav { 
   padding-left: 0;
   flex-basis: 100%;
   display: flex;

@@ -1,0 +1,34 @@
+%img {
+  @include center;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.img {
+  &-logo {
+    @include center;
+  }
+  &-avatar {
+    @extend %img;
+    max-height: 100%;
+  }
+  &-frame {
+    @extend %img;
+    padding: 13px;
+    border: 1px solid $color-img-frame;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .logo { //i dont think this goes to anything.....
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
+
+
+
+
+  
+  
