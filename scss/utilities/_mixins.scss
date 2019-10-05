@@ -17,10 +17,6 @@
         align-items: $ai;
 }
 
-@mixin font {
-
-}
-
 @mixin border(
     $brdr: null,
     $brdr-l: null,

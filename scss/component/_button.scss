@@ -14,21 +14,21 @@
   }
   
   .default {
-    background-color: $color-primary;
+    background-color: map-get($themes, 11);
   }
   
   .error {
-    background-color: $color-error;
+    background-color: map-get($themes, 9);
   }
   
   .info {
-    background-color: $color-info;
+    background-color: map-get($themes, 1);
   }
   
   .success {
-    background-color: $color-success;
+    background-color: map-get($themes, 10);
   }
   
   .warning {
-    background-color: $color-warning;
+    background-color: map-get($themes, 2);
   }

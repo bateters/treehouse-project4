@@ -1,7 +1,7 @@
 .form {
     flex-basis: 100%;
     .input{
-      @include border ($brdr: none, $brdr-b: 5px solid $color-secondary);
+      @include border ($brdr: none, $brdr-b: 5px solid $color-primary);
       display: block;
       width: 94%;
       margin: 10px auto 0;

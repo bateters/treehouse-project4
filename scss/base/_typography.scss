@@ -14,7 +14,7 @@ a {
 
 .headline {
     &-primary {
-        color: $color-secondary;
+        color: $color-primary;
         margin-left: 10px;
     }
     &-secondary {
@@ -23,13 +23,13 @@ a {
 }
 
 .link {
-    color: $color-primary;
+    color: map-get($themes, 11);
     font-weight: 700;
 }
 
 .blockquote {
     @extend .headline-secondary;
-    @include border($brdr-l: 8px solid $color-secondary, $rad: 5px);
+    @include border($brdr-l: 8px solid $color-primary, $rad: 5px);
     font-size: 1.5em;
     font-style: italic;
     margin-left: 20px;
