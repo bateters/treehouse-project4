@@ -14,11 +14,11 @@
             color: $white;
             background-color: $color-primary;
         }
-        @include media {
+        @include media($break) {
             flex-basis: 100px;
         }
     }
-    @include media {
+    @include media($break) {
         @include display($dir: row, $just: flex-end, $ai: center);
     }
 }

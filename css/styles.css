@@ -555,7 +555,8 @@ a {
 .form {
   flex-basis: 100%;
 }
-.form .input {
+
+.input {
   border: none;
   border-bottom: 5px solid #58e1c1;
   display: block;
@@ -563,7 +564,8 @@ a {
   margin: 10px auto 0;
   padding: 10px;
 }
-.form .hidden {
+
+.hidden {
   position: absolute;
   left: -10000px;
   top: auto;
@@ -580,6 +582,10 @@ a {
   color: #fff;
   padding: 10px 0;
   text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #99edd9;
 }
 @media (min-width: 768px) {
   .btn {

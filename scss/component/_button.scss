@@ -5,7 +5,11 @@
     color: $white;
     padding: 10px 0;
     text-transform: uppercase;
-    @include media {
+    transition: background-color .3s;
+    &:hover {
+      background-color: lighten($color-primary, 15%);
+    }
+    @include media($break) {
       padding: 10px 30px;
       & + & {
         margin-left: 10px;

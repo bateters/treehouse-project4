@@ -1,6 +1,6 @@
 .container {
   padding: 0 10px;
-  @include media {
+  @include media($break) {
     @include center;
     max-width: 1400px;
   }
@@ -9,7 +9,7 @@
 .row {
   @include display($disp: flex, $dir: column);
   padding: 1em 10px;
-  @include media {
+  @include media($break) {
     flex-direction: row;
   }
 }
@@ -32,7 +32,7 @@
   flex-basis: 100%;
 }
   
-@include media {
+@include media($break) {
   .centered {
     @include center;
   }

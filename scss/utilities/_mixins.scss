@@ -32,8 +32,8 @@
         border-radius: $rad;
 }
 
-@mixin media {
-    @media (min-width: $break) {
+@mixin media($breakpoint) {
+    @media (min-width: $breakpoint) {
         @content;
     }
 }
