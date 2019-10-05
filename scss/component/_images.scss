@@ -20,8 +20,8 @@
 }
 
 
-@media (min-width: 768px) {
-  .logo { //i dont think this goes to anything.....
+@include media {
+  .logo { //i dont think this goes to anything... unless it was suppose to be img.logo
     margin-left: initial;
     margin-right: initial;
   }

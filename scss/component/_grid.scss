@@ -1,16 +1,15 @@
 .container {
     padding: 0 10px;
-    @media (min-width: 768px) {
+    @include media {
       @include center;
       max-width: 1400px;
     }
   }
   
   .row {
-    display: flex;
-    flex-direction: column;
+    @include display($disp: flex, $dir: column);
     padding: 1em 10px;
-    @media (min-width: 768px) {
+    @include media {
       flex-direction: row;
     }
   }
@@ -21,12 +20,10 @@
     min-height: 25px;
     padding: 10px;
     border-radius: 5px;
-    @media (min-width: 768px) {
-        display: flex;
-        justify-content: center;
-        margin-top: 0;
-        align-items: center;
-      & + & {
+    @include media {
+      @include display($disp: flex, $just: center, $ai: center);
+      margin-top: 0;
+        & + & {
         margin-left: 10px;
       }
     }
@@ -84,7 +81,7 @@
     flex-basis: 100%;
   }
   
-@media (min-width: 768px) {
+@include media {
   .centered {
     display: block;
     margin-left: auto;
