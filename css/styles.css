@@ -365,12 +365,12 @@ a {
 }
 
 .blockquote {
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
   font-size: 1.5em;
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #58e1c1;
-  border-radius: 5px;
 }
 
 .nav {
@@ -434,6 +434,7 @@ a {
   padding: 10px;
   border-radius: 5px;
 }
+
 .theme.col-1 {
   background-color: #927bc1;
 }
@@ -555,12 +556,12 @@ a {
   flex-basis: 100%;
 }
 .form .input {
+  border: none;
+  border-bottom: 5px solid #58e1c1;
   display: block;
   width: 94%;
   margin: 10px auto 0;
-  border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
 }
 .form .hidden {
   position: absolute;
@@ -572,13 +573,13 @@ a {
 }
 
 .btn {
+  border: none;
+  border-radius: 5px;
   margin-top: 15px;
   width: 100%;
   color: #fff;
-  border: none;
   padding: 10px 0;
   text-transform: uppercase;
-  border-radius: 5px;
 }
 @media (min-width: 768px) {
   .btn {
