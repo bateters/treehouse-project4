@@ -9,35 +9,24 @@ $color-img-frame: #ccc; // light gray
 
 $white: #fff;
 
-// $theme {
-//      1
-//      2
-//      3
-//      4
-//      5 : #deb2ee;
-//      6 : #7ee6fd;
-//      7 : #88d9a0;
-//      8 : #4da2bb;
-//      9 : #ec9fa3;
-//     10
-//     11
-//     12 : #fd9f85;
-//     13 : #80e8d1;
-
-// }
+$themes: (
+    1 : #927bc1, //light purple color-info
+    2 : #fd7856, //orange color-warning
+    3 : #deb2ee, //pink
+    4 : #7ee6fd, //teal
+    5 : #88d9a0, //light green
+    6 : #4da2bb, //light blue
+    7 : #ec9fa3, //light red
+    8 : #fd9f85, //light orange
+    9 : #e4757a, //lighter red color-error
+   10 : #63cc82, //green color-success
+   11 : #51ddfc, //blue primary-color
+   12 : #80e8d1, //aqua
+);
 
 $font-stack-primary: 'Lato', sans-serif;
 
 $break: 768px;
-
-// theme colors, were they generated with a function or is it an array used in functions?
-// $5: #deb2ee;
-// $6: #7ee6fd;
-// $7: #88d9a0;
-// $8: #4da2bb;
-// $9: #ec9fa3;
-// $10: #fd9f85;
-// $13: #80e8d1;
 
 
 
